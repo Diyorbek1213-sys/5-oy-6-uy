@@ -2,7 +2,6 @@
 // Qo‘shimcha talablar:
 // Jadvaldagi har bir satr oxirida O‘chirish tugmasi bo‘lsin.
 // O‘chirish tugmasi bosilganda, tegishli satr o‘chiriladi.
-alert('1-vazifa')
 const input_1 = document.querySelector('.input_1')
 const input_2 = document.querySelector('.input_2')
 const input_3 = document.querySelector('.input_3')
@@ -81,7 +80,6 @@ btn_4 && btn_4.addEventListener('click', function () {
 // Talablar:
 // Foydalanuvchi rangni tanlaganida, matn maydonidagi matn fonining rangi avtomatik o‘zgaradi.
 // Foydalanuvchi matnni o‘zgartirsa, bu matn darhol rangli blokda aks etadi.
-alert('2-vazifa')
 const btn_5 = document.querySelector('.btn_5')
 const btn_6 = document.querySelector('.btn_6')
 const btn_7 = document.querySelector('.btn_7')
@@ -103,7 +101,6 @@ btn_7 && btn_7.addEventListener('click', function () {
 // Talablar:
 // Yuborish tugmasini bosganda, to‘ldirilmagan maydonlar qizil hoshiyaga ega bo‘lsin.
 // To‘g‘ri to‘ldirilgan maydonlar yashil hoshiyaga ega bo‘lsin.
-alert('3-vazifa')
 const input_4 = document.querySelector('.input_4')
 const input_5 = document.querySelector('.input_5')
 const input_6 = document.querySelector('.input_6')
@@ -167,7 +164,6 @@ btn_8 && btn_8.addEventListener('click', function () {
 // Talablar:
 // Mos kelmaydigan qatorlar yashiriladi.
 // Qidiruv real vaqt rejimida ishlashi kerak.
-alert('4-vazifa')
 const input_9 = document.querySelector('.input_9')
 const ul_1 = document.querySelectorAll('.ul_1 li')
 
@@ -184,7 +180,6 @@ input_9 && input_9.addEventListener('input', function () {
 // Tavsif: Foydalanuvchi formadagi Element turi (masalan, <div>, <p>) va Element mazmuni maydonlariga ma’lumot kiritsa, Yaratish tugmasi bosilganda shu element sahifada paydo bo‘lsin.
 // Qo‘shimcha talablar:
 // Yaratilgan elementga avtomatik stil qo‘llansin (masalan, fon rangi, chekka, kenglik va h.k.).
-alert('5-vazifa')
 const input_10 = document.querySelector('.input_10')
 const btn_9 = document.querySelector('.btn_9')
 
@@ -209,8 +204,7 @@ btn_9 && btn_9.addEventListener('click', function () {
 // Tavsif: Foydalanuvchi formadagi Rasm URL maydoniga rasm linkini kiritib, Qo‘shish tugmasini bossin.
 // Talablar:
 // Kiritilgan rasmni dinamik slayderga qo‘shish.
-// Oldingi va Keyingi tugmalari orqali slayderni boshqarish.
-alert('6-vazifa') // qanday qilib oldingi va keyingi tugmalarini ishlatishni bilmadim ?
+// Oldingi va Keyingi tugmalari orqali slayderni boshqarish. // qanday qilib oldingi va keyingi tugmalarini ishlatishni bilmadim ?
 const input_11 = document.querySelector('.input_11')
 const btn_10 = document.querySelector('.btn_10')
 const div_1 = document.querySelector('.div_1') // slayder
@@ -233,14 +227,12 @@ btn_10 && btn_10.addEventListener('click', function () {
 // Tavsif: Formada foydalanuvchi bajariladigan ishlarni kiritadi va Qo‘shish tugmasini bossa, ro‘yxatga yangi ish qo‘shiladi.
 // Qo‘shimcha talablar:
 // Har bir ishni o‘chirish uchun O‘chirish tugmasi.
-// Ish bajarilganligini belgilash uchun Checkbox.
-alert('7-vazifa') // ustoz bunda ozini nechta ishini kiritadigan bolsa har biriga alohida li ochib qoshishi kerak men buni qanday qilishni bilmayman ?
+// Ish bajarilganligini belgilash uchun Checkbox. // ustoz bunda ozini nechta ishini kiritadigan bolsa har biriga alohida li ochib qoshishi kerak men buni qanday qilishni bilmayman ?
 
 // Tavsif: Formada foydalanuvchi o‘z ismi va jinsini tanlashi kerak.
 // Talablar:
 // Salomlashish tugmasini bossa, foydalanuvchiga Assalomu alaykum, [Ism]! yoki Salom, [Ism]! matni ko‘rsatiladi.
 // Salomlashuv shakli foydalanuvchining tanlangan jinsi asosida o‘zgaradi.
-alert('8-vazifa')
 const input_12 = document.querySelector('.input_13')
 const select = document.getElementById('select')
 const btn_13 = document.querySelector('.btn_14')
@@ -270,8 +262,7 @@ btn_13 && btn_13.addEventListener('click', function () {
 // Tavsif: Formada ikkita son kiritish maydoni (Son 1, Son 2) va Operatsiya (masalan, qo‘shish, ayirish) tanlash uchun select bo‘lsin.
 // Talablar:
 // Foydalanuvchi maydonlarni to‘ldirganda va operatsiyani tanlaganda, natija avtomatik ko‘rsin.
-// Natija hisoblagichning oxirida alohida matnda ko‘rsin.
-alert('9-vazifa') // ishlatolmadim ustoz ?
+// Natija hisoblagichning oxirida alohida matnda ko‘rsin. // ishlatolmadim ustoz ?
 
 // const input_14 = document.querySelector('.input_14')
 // const input_15 = document.querySelector('.input_15')
@@ -295,7 +286,7 @@ alert('9-vazifa') // ishlatolmadim ustoz ?
 // Savatchadagi mahsulotlar jadvalda ko‘rsin.
 // Har bir mahsulot uchun O‘chirish va Tahrirlash tugmalari bo‘lsin.
 // Savatchaning umumiy narxi jadval ostida ko‘rsin.
-alert('10-vazifa')
+
 const input_16 = document.querySelector('.input_16')
 const input_17 = document.querySelector('.input_17')
 const input_18 = document.querySelector('.input_18')
